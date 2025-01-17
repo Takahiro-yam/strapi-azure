@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "retails",
+  "info": {
+    "singularName": "retail",
+    "pluralName": "retails",
+    "displayName": "Retails",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product_id": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "product_name": {
+      "type": "text"
+    },
+    "price": {
+      "type": "biginteger"
+    }
+  }
+}
